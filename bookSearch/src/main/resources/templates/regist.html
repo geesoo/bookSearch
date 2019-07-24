@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+    <head>
+    <meta charset="UTF-8" />
+        <title>회원가입 </title>
+    </head>
+    <body>
+
+
+	<form action="#" th:action="@{/account/register}" th:object="${account}" name="registForm" role="form" method="post">
+	    <div><label> User Name :<input th:field="*{userName}" type="text" class="form-control" id="userName" value="userName" /></label></div>
+	    <div><label> Password: <input th:field="*{passWord}" type="password" class="form-control" id="passWord" /></label></div>
+	      <br/>
+		  ADMIN <input th:field="*{role}" type="radio" name="role" value="ADMIN"/> | 
+		  USER  <input th:field="*{role}" type="radio" name="role" value="USER" />
+		  <hr/>
+		<div><button type="submit" >회원가입</button></div>
+	</form>
+
+
+    </body>
+</html>

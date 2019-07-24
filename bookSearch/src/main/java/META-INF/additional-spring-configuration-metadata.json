@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "kakao.openapi.book.url",
+    "type": "java.lang.String",
+    "description": "A description for 'kakao.openapi.book.url'"
+  },
+  {
+    "name": "naver.openapi.book.url",
+    "type": "java.lang.String",
+    "description": "A description for 'naver.openapi.book.url'"
+  },
+  {
+    "name": "kakao.openapi.authorization",
+    "type": "java.lang.String",
+    "description": "A description for 'kakao.openapi.authorization'"
+  },
+  {
+    "name": "naver.openapi.client.id",
+    "type": "java.lang.String",
+    "description": "A description for 'naver.openapi.client.id'"
+  },
+  {
+    "name": "naver.openapi.client.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'naver.openapi.client.secret'"
+  }  
+]}
